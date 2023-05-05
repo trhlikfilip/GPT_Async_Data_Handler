@@ -112,7 +112,7 @@ async def process_dataframe(df, model, temperature, max_tokens, top_p):
 
 
 prompt_template = ""
-system_prompt = "You are a helpful AI that does what it is asked for."
+system_prompt = "You are a helpful AI."
 
 PATH = ""
 
