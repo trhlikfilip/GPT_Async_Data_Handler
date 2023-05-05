@@ -121,3 +121,6 @@ def main():
     df["response"] = -1
     df = asyncio.run(process_dataframe(df, model="gpt-3.5-turbo", temperature=0.7, max_tokens = 500, top_p=1.0))
     df.to_csv("result.csv")
+
+if __name__ == "__main__":
+    main()
