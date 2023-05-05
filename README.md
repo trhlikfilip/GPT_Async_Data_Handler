@@ -35,4 +35,4 @@ Furthermore, you can set the system prompt and the detection prompt in the varia
 
 ## Usage
 
-The script inputs a dataframe, evaluates all the text values in the `text` column, and assigns a score between 0 and 100 for each text value. The output is a dataframe containing the original text and the corresponding scores in the `score` column.
+The script inputs a dataframe, processes all the text values in the `text` column, and sends them to the OpenAI API for asynchronous processing. The output is a dataframe containing the original text and the corresponding API responses in the `response` column.
